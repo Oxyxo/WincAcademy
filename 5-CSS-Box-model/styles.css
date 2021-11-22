@@ -81,6 +81,10 @@ h3, p.blue-border {
     border-left: 1px solid #DA7B93;
 }
 
+.main > *{
+    flex: 1 1 200px;
+}
+
 #music-footer {
     height: 10em;
     position: relative;
@@ -160,3 +164,43 @@ a:active {
 a:visited {
     color:#DA7B93;
 }
+
+/* Media Queries */
+@media (min-width: 1024px) {
+    body{
+        background-color: pink;
+        color: #4070A0;
+        font-size: smaller;
+        line-height: 1.5rem;
+    }
+    .footer{
+        background-color: #fff;
+        color: #2F4454;
+    }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 760px){
+    p{
+        font-size: smaller;
+    }
+}
+
+@media only screen and (max-width: 759px){
+    section h1 {
+        margin-top: 2.5em;
+    }
+    .index-article .right-side {
+        display: inline-block;
+    }
+    header{
+        font-size: smaller;
+    }
+    body {
+        font-size: smaller;
+
+    }
+    main{
+        flex-direction: column;
+    }
+}
+
