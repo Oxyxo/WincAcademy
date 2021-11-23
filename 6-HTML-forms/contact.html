@@ -29,7 +29,40 @@
         <label for="lname">Last name:</label><br>
         <input type="text" id="lname" name="lname"><br>
         <label for="email">Enter your email:</label><br>
-        <input type="email" id="email" name="email"><br><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="phone">Enter your phone number (8 digits):</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{8}"><br>
+        <label for="age">Age:</label><br>
+        <input type="number" min="1"><br>
+        <label for="birthday">Date of birth:</label><br>
+        <input type="date" id="birthday" name="birthday"><br><br>
+
+        Gender <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="cuisine1">Favorite cuisine</label><br>
+        <input type="checkbox" id="cuisine1" name="cuisine1" value="French">
+        <label for="cuisine1">French</label>
+        <input type="checkbox" id="cuisine2" name="cuisine2" value="Italian">
+        <label for="cuisine1">Italian</label>
+        <input type="checkbox" id="cuisine3" name="cuisine3" value="Spanish">
+        <label for="cuisine1">Spanish</label>
+        <input type="checkbox" id="cuisine4" name="cuisine4" value="Arabic">
+        <label for="cuisine1">Arabic</label><br><br>
+        <label for="favcolor">Select your favorite apron color:</label>
+        <input type="color" id="favcolor" name="favcolor"><br><br>
+
+        <label for="biography">Biography:</label><br>
+        <textarea id="biography" name="biography" rows="4" cols="50"></textarea><br><br>
+
+        <label for="myfile">Upload your latest recipe:</label>
+        <input type="file" id="myfile" name="myfile"><br><br>
+
+        <label for="homepage">URL to recipe website:</label><br>
+        <input type="url" id="homepage" name="homepage"><br><br>
+
+        <input type="reset">
         <input type="submit" value="Submit"><br>
     </form>
 
