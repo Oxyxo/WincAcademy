@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Work+Sans:300,400,700" rel="stylesheet">
+    <title>Enough homepage</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon1.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="content">
+        <nav class="navigation">
+            <a href="/index.html"><img class="logo" src="images/40e2a967bc6d430780bc076124bb72fb.png" alt=""></a>
+          <ul>          
+              <li><a href="/Archive.html">Archive</a></li>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/Forum.html">Forum</a></li>
+          </ul>
+        </nav>
+        <header class="newsletter extra">
+          <h1>Enjoy new video picks</h1>
+          <h2>Browse per category</h2>
+          <p>Watch them all</p>
+        </header>
+        <section class="newsletter">
+            <h1>Monthly video:</h1><br>
+            <p>Daði Freyr (Daði & Gagnamagnið) – Think About Things (Official Video)</p><br>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VFZNvj-HfBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>       
+        </section>        
+        <footer>
+            <div class="footer">
+              <h1>Categories</h1><br>
+              <p>Soul</p>
+              <p>Media</p>
+              <p>Budget</p>
+              <p>Archive</p>
+              <p><a href="/Forum.html">Forum</a></p>
+              <p>Contact</p><br>
+              <a href="https://github.com/Oxyxo/WincAcademy/tree/main/Hackaton_Enough!" target="_blank"><h3>Fork me on Github</h3></a>
+              <button onclick="topFunction()" id="myBtn" title="Go to top">Up</button>
+            </div>
+           
+        </footer>  
+    </div>
+  
+</body>
+</html> 
+
+
+<script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+    

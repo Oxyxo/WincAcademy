@@ -12,102 +12,74 @@
     <body>
         <div class="content">
             <nav class="navigation">
-                <img class="logo" src="images/40e2a967bc6d430780bc076124bb72fb.png" alt="">
+                <a href="/index.html"><img class="logo" src="images/40e2a967bc6d430780bc076124bb72fb.png" alt=""></a>
                 <ul>
-                    <li><input type="text" placeholder="Search here"></li>
-                    <li><a href="Archive">Archive</a></li>
-                    <li><a href="Extra">Extra's</a></li>
+                    
+                    <li><a href="Archive.html">Archive</a></li>
+                    <li><a href="Extra.html">Extra's</a></li>
                     <li><a href="/index.html">Home</a></li>
                 </ul>
             </nav>
-            <header class="hero">
-                <h1>Enough!</h1>
-                <h2>as you are</h2>
-                <p>Daily inspiration for a simplier and happier life</p>
-            </header>
-            <section>
-                <div class="posts">
-                    <article class="post">
-                        <img class="image" src="images/calmphotosky.jpg" alt="calmphotosky">
-                        <div class="content">
-                            <small class="tag">SOUL/SIMPLE LIVING</small>
-                            <h3 class="title">Calm down your life!</h3>
-                            <span class="date">1 Nov, 2021</span>
-                            <p class="description">Your way is a best way. We are all unique.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quod delectus recusandae nemo, nihil inventore iste eum sunt eligendi sapiente sit molestiae fugiat doloribus magni cum labore est facere maiores!</p>
-                            <button class= "btn1" type="button">More</button>
-                        </div>
-                    </article>
-                    <article class="post">
-                        <img class="image" src="images/pumpkinsoup.jpg" alt="Coffee">
-                        <div class="content">
-                            <small class="tag">BUDGET/KITCHEN HACKS</small>
-                            <h3 class="title">Warm winter soups</h3>
-                            <span class="date">1 Oct, 2021</span>
-                            <p class="description">Few ingredients, these fast and colorful soups will fill you with energy. Cras in dignissim mi, at placerat est. In condimentum ligula lorem, ut vehicula tortor rutrum vel. Fusce tincidunt vitae orci in aliquam. Ut fringilla est sit amet nunc suscipit, vel euismod eros lobortis. Maecenas rutrum dui et mauris maximus pretium.</p>
-                            <button class= "btn1" type="button">More</button>
-                        </div>
-                    </article>
-                    <article class="post">
-                        <img class="image" src="images/ws_Girl_and_music_2560x1600.jpg" alt="Music">
-                        <div class="content">
-                            <small class="tag">SOUL/MEDIA</small>
-                            <h3 class="title">Monthly music pics</h3>
-                            <span class="date">1 Oct, 2021</span>
-                            <p class="description"> Classic or Rock, invite sounds in your life! Cras in dignissim mi, at placerat est. In condimentum ligula lorem, ut vehicula tortor rutrum vel. Fusce tincidunt vitae orci in aliquam. Ut fringilla est sit amet nunc suscipit, vel euismod eros lobortis. Maecenas rutrum dui et mauris maximus pretium.</p>
-                            <button class= "btn1" type="button">More</button>
-                        </div>
-                    </article>
-                    <article class="post">
-                      <img class="image" src="images/hobby_photo.jpg" alt="Coffee">
-                      <div class="content">
-                          <small class="tag">SOUL/HOBBY</small>
-                          <h3 class="title">Try it all</h3>
-                          <span class="date">1 Dec, 2021</span>
-                          <p class="description">Photography, singing, volunteering. What makes you feel motivated to jump out of the bed? Cras in dignissim mi, at placerat est. In condimentum ligula lorem, ut vehicula tortor rutrum vel. Fusce tincidunt vitae orci in aliquam. Ut fringilla est sit amet nunc suscipit, vel euismod eros lobortis. Maecenas rutrum dui et mauris maximus pretium.</p>
-                          <button class= "btn1" type="button">More</button>
-                      </div>
-                  </article>
-                  <article class="post">
-                    <img class="image" src="images/DT2163.jpg" alt="Coffee">
-                    <div class="content">
-                        <small class="tag">BUDGET/SIMPLE LIVING</small>
-                        <h3 class="title">Minimalism vs consumerism</h3>
-                        <span class="date">1 Jul, 2021</span>
-                        <p class="description">Evening with your friends, playing board games and drinking tea. Cras in dignissim mi, at placerat est. In condimentum ligula lorem, ut vehicula tortor rutrum vel. Fusce tincidunt vitae orci in aliquam. Ut fringilla est sit amet nunc suscipit, vel euismod eros lobortis. Maecenas rutrum dui et mauris maximus pretium.</p>
-                        <button class= "btn1" type="button">More</button>
-                    </div>
-                </article>
-                    <article class="post">
-                        <img class="image" src="https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?cs=srgb&dl=pexels-chevanon-photography-302899.jpg&fm=jpg" alt="Coffee">
-                        <div class="content">
-                            <small class="tag">BUDGET/KITCHEN HACKS</small>
-                            <h3 class="title">Reuse coffee filters!</h3>
-                            <span class="date">1 Jun, 2021</span>
-                            <p class="description">Perfect soil fertilizer or 100 hacks with used coffee. Cras in dignissim mi, at placerat est. In condimentum ligula lorem, ut vehicula tortor rutrum vel. Fusce tincidunt vitae orci in aliquam. Ut fringilla est sit amet nunc suscipit, vel euismod eros lobortis. Maecenas rutrum dui et mauris maximus pretium.</p>
-                            <button class= "btn1" type="button">More</button>
-                        </div>
-                    </article>
+            <form name ="contact" class="contact" method="POST" data-netlify="true">
+                <p>To get access to our forum and weekly meetups, please fill in the following form.</p>
+                <p>We will send you the needed information on your e-mail.</p><br>
+                <label for="fname">Full name name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Preferred forum name (seen to others):</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="email">Enter your email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="phone">Enter your phone number (8 digits):</label><br>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{8}"><br><br>
+                Age <input type="radio" id="under-18" name="under-18" value="under-18">
+                <label for="under-18">Under 18</label>
+                <input type="radio" id="18-39" name="18-39" value="18-39">
+                <label for="18-39">18-39</label>
+                <input type="radio" id="40+" name="40+" value="40+">
+                <label for="40+">40 and older</label><br><br>
+                <label for="birthday">Date of birth (to congratulate you):</label><br>
+                <input type="date" id="birthday" name="birthday"><br><br>
+        
+                Gender <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br><br>
+        
+                <label for="choice">I am interested in:</label><br>
+                <input type="checkbox" id="choice1" name="choice1" value="soul">
+                <label for="choice1">Simple living, minimalism</label>
+                <input type="checkbox" id="choice2" name="choice2" value="media">
+                <label for="choice2">Media, art, music</label>
+                <input type="checkbox" id="choice3" name="choice3" value="meetups">
+                <label for="choice3">Meetups, social events</label>
+                <input type="checkbox" id="choice4" name="choice4" value="budget">
+                <label for="choice4">Living on a budget</label><br><br>
+                                     
+                <label for="biography">Tell us about yourself:</label><br>
+                <textarea id="biography" name="biography" rows="4" cols="50"></textarea><br><br>
+        
+                <label for="myfile">Upload your favorite photo:</label>
+                <input type="file" id="myfile" name="myfile"><br><br>
+        
+                <label for="homepage">URL to your website (if any):</label><br>
+                <input type="url" id="homepage" name="homepage"><br><br>
+        
+                <input class= "btn1" type="reset">
+                <input class= "btn1" type="submit"><br>
+            </form>
+            <footer>
+                <div class="footer">
+                  <h1>Categories</h1><br>
+                  <p>Soul</p>
+                  <p>Media</p>
+                  <p>Budget</p>
+                  <p>Archive</p>
+                  <p><a href="/Forum.html">Forum</a></p>
+                  <p>Contact</p><br>
+                  <a href="https://github.com/Oxyxo/WincAcademy/tree/main/Hackaton_Enough!" target="_blank"><h3>Fork me on Github</h3></a>
+                  <button onclick="topFunction()" id="myBtn" title="Go to top">Up</button>
                 </div>
-            </section>
-            <div class="newsletter">
-              <h3>Monthly Newsletter</h3>
-              <p>Sign up to receive our monthly tips and picks and dates for meetups</p><br>
-              <label for="email">Enter your email:</label><input type="email" id="email" name="email"><br>
-              <input class= "btn1" type="submit">
-      
-            </div>
-          <footer>
-            <div class="footer">
-              <h1>Categories</h1>
-              <p>Soul</p>
-              <p>Budget</p>
-              <p>Archive</p>
-              <p>Forum</p>
-              <p>Contact</p>
-              <h2>Fork me on Github</h2>
-              <h2>Made by Oxyxo</h2>
-            </div>
-          </footer>  
+            </footer>  
         </div>
     </body>
       
