@@ -1,10 +1,10 @@
 const age = 25;
 const isFemale = false;
-const driverStatus = 'drunk';
+const driverStatus = 'drunk'; //though bob is more preferrable
 
 if (age >= 18) {
     console.log('You are allowed in!');
-    
+
     if (isFemale == true){
         console.log("Free drinks for ladies tonight!");
     } else {
