@@ -20,3 +20,5 @@ let myAge = 35;
 console.log(typeof(myAge)); //number
 myAge = "35";
 console.log(typeof(myAge)); //string
+/* This is
+a comment on multiple lines */
