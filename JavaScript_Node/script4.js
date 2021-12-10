@@ -77,6 +77,7 @@ console.log("Name cat breed 3:" , catBreeds[catBreeds.length-1].name); //Name ca
 console.log('Energy level cat breed 1:' , catBreeds[0].energy_level); //Energy level cat breed 1: 5
 console.log('First temperament cat breed 2:' , catBreeds[1].temperament[0]); //First temperament cat breed 2: Affectionate
 console.log('Last temperament cat breed 3:' , catBreeds[2].temperament[catBreeds[2].temperament.length -1]); //Last temperament cat breed 3: Sensitive
+console.log('Last temperament cat breed 3:' , catBreeds[2].temperament.slice(-1)); //Last temperament cat breed 3: [ 'Sensitive' ]
 console.log('Favorite food cat breed 3:' , catBreeds[2].food.favourite_food); //Favorite food cat breed 3: meaty things
 
 
