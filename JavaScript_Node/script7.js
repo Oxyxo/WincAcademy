@@ -39,4 +39,39 @@ console.log(doubleArray([1, 2, 3]));//[ 2, 4, 6 ]
 // send an email
 // write to a database
 
+// 1. function declarations
+function sayHello1() {
+    console.log('Hello 1');
+}
+// 2. function expressions most adviseable 
+const sayHello2 = function() {
+    console.log('Hello 2');
+}
+// 3. arrow function (also a function expression)
+const sayHello3 = () => {
+    console.log('Hello 3');
+}
 
+const square = number => {
+    return number * number;
+  };
+
+const add2 = (number1, number2) => number1 + number2;
+
+
+function calculation(number1, number2) {
+    calc1 = number1*number1 + number2*number2
+    calc2 = calc1*calc1
+    return calc2;
+}
+console.log(calculation(10, 5)); //15625
+
+const calculation2 = function(number1, number2) {
+    calc1 = number1*number1 + number2*number2
+    calc2 = calc1*calc1
+    return calc2;
+}
+console.log(calculation2(10, 5)); //15625
+
+const calculation3 = (number1, number2) => (number1*number1 + number2*number2)*(number1*number1 + number2*number2);
+console.log(calculation3(10, 5)); //15625
