@@ -12,6 +12,13 @@ console.log('Your number is bigger than 100: ' + big100(10)); //Your number is b
 console.log('Your number is bigger than 100: ' + big100(1000)); //Your number is bigger than 100: true
 
 
+//alternative solution
+
+const numberIsBig = function(number) {
+    return number > 100;
+};
+console.log(numberIsBig(150)); //true
+
 //do something function
 function brendaBouncer(maxNumber, curNumber, age) {
     if (age < 18){
@@ -24,6 +31,27 @@ function brendaBouncer(maxNumber, curNumber, age) {
 console.log(brendaBouncer(10, 7, 19)); //come in
 console.log(brendaBouncer(10,7,15)); //this is a club for adult
 console.log(brendaBouncer(10, 10, 19)); //it's too busy now, come back later
+
+
+//alternative solution
+
+const getBouncerReaction = function(
+    maxVisitors,
+    currentVisitors,
+    ageOfPotentialVisitor
+) {
+    let response;//use a temporary response variable
+    if (ageOfPotentialVisitor < 18) {
+        response = "this is a club for adults";
+    } else if (currentVisitors >= maxVisitors) {
+        response = "it's too busy now, come back later";
+    } else {
+        response = "come in";
+    }
+    return response;
+};
+
+console.log(getBouncerReaction(2000, 0, 15)); //this is a club for adults
 
 //calculating the average, produce something
 function average(number1, number2, number3, number4, number5){
