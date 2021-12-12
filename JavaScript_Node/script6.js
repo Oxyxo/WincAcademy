@@ -14,3 +14,8 @@ wallPainter('grey', 'south-east');//The south-east wall has been painted grey
 
 wallPainter('south-east', 'grey'); //The grey wall has been painted south-east
 //if you give wrong order when calling a function it will put it in wrong places
+
+
+// console.log(`The wall has been painted ` + color); // String concatenation
+//     // or
+// console.log(`The wall has been painted ${color}`); // String interpolation
