@@ -65,3 +65,5 @@ console.log(average(1,2,3,4,5)); //3
 console.log(average(9, 8, 7, 6, 5)); //7
 console.log(average(13, 36, 25, 53, 53)); //36
 
+
+
