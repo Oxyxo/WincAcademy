@@ -21,3 +21,20 @@ while (w < 5) {
 for (let i = 0; i < 5; i++) {
   console.log(`This is for iteration number ${i}`);
 }
+
+//https://levelup.gitconnected.com/five-ways-to-loop-through-a-javascript-array-3325f4673334
+
+// // Arrow function, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+// forEach((element) => { /* ... */ } )
+// forEach((element, index) => { /* ... */ } )
+// forEach((element, index, array) => { /* ... */ } )
+
+// // Callback function
+// forEach(callbackFn)
+// forEach(callbackFn, thisArg)
+
+// // Inline callback function
+// forEach(function(element) { /* ... */ })
+// forEach(function(element, index) { /* ... */ })
+// forEach(function(element, index, array){ /* ... */ })
+// forEach(function(element, index, array) { /* ... */ }, thisArg)
