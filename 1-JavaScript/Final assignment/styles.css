@@ -1,0 +1,44 @@
+.hidden {
+    display: none;
+}
+
+#red {
+    background-color: red;
+}
+#orange {
+    background-color: orange;
+}
+#yellow {
+    background-color: yellow;
+}
+#green {
+    background-color: green;
+}
+#light-blue {
+    background-color: skyblue;
+}
+#blue {
+    background-color: blue;
+}
+#purple {
+    background-color: purple;
+}
+
+body {
+    background-color: rgb(224, 23, 181);
+}
+
+#hamburger {
+    width: 100px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    cursor: pointer;
+}
